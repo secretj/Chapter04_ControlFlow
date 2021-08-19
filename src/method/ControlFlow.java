@@ -1,7 +1,7 @@
 package method;
 
 public class ControlFlow {
-//오버 로딩 같은 이름에 자료형을 다 실어주는거
+//오버 로딩 같은 이름에  다른 자료형을 여러개 실어주는거
 	public static void main(String[] args) {
 		add(1,5);
 		add(2,5);
@@ -14,14 +14,14 @@ public class ControlFlow {
 		return i+j;
 	}
 	
-	private static void add(double d, double e) {                  								//private메소드는 동일 패키지내에서만 사용할 수 있다.
-																								//public메소드는 어디든 사용 가능함
+	private static void add(double d, double e) {                  					//private메소드는 동일 패키지내에서만 사용할 수 있다.
+																					//public메소드는 어디든 사용 가능함
 		System.out.println( d + e );															
 		
 	}
 	
 	
-	// void는 비어있다는 뜻 변수 타입을 지정해줘야한다.
+	// void는 비어있다는 뜻, 변수 타입을 지정해줘야한다.
 	
 	
 	
